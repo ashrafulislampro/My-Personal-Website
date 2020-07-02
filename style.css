@@ -1,0 +1,63 @@
+.amer{
+    color:gold;
+}
+body{
+    margin:3%;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width:40%;
+    margin-left:5%;
+    padding-left:2%;
+    float:left;
+    
+}
+.half-width img{
+    width:100%;
+}
+.lol {
+    
+    background-image: url("kala/chho.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration:none ;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+     font-weight:700;
+     border-radius:5px;
+     color:white;
+}
+.tomer{
+    width: 100px;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+}
+section{
+   
+    
+    padding-bottom: 500px;
+}
+.experience-solve img{
+    width:30%;
+}
+.third-width{
+    width:100%;
+    float:left;
+     weight:100px;
+}
+ 
+
+ 
+
+ .main{
+     width:90%;
+     float:left;
+     margin-left:3%;
+ }
+
+
+
