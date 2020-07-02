@@ -24,7 +24,7 @@ h1{
 }
 .link-button{
     text-decoration:none ;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, #fb0094, #00f, #0f0, #fb0094, #ff0, gold);
     padding: 10px 20px;
      font-weight:700;
      border-radius:5px;
@@ -37,7 +37,7 @@ h1{
     margin-left: 5%;
 }
 section{
-    padding-bottom: 80%;
+    padding-bottom: 40%;
 }
    
     
@@ -89,7 +89,7 @@ h2{
 }
 #made{
     background-image: url("personal-website/footer-bg.png");
-    background-repeat: no-repeat;
+    
 }
 #kalman{
     font-size:16px;
@@ -140,9 +140,9 @@ h2{
     Left: 0;
     width: 100%;
     heigth: 100%;
-    background: #9bdc28;
-    clip-path: circle(150px at 80% 20%);
-    transition: 0.5s ease-in-out;
+    background:red;
+     clip-path: circle(150px at 80% 20%);
+     transition: 0.5s ease-in-out;
 }
 .people .container .card:hover:before
 {
@@ -182,7 +182,7 @@ transform: translateY(0%);
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-25deg);
+    transform: translate(-50%, -50%) rotate(-20deg);
     width: 270px;
 }
 .people .container .card .contentBx
@@ -197,7 +197,7 @@ transform: translateY(0%);
 }
 .people .container .card:hover .contentBx
 {
-    height: 210px;
+    height: 250px;
 }
 .people .container .card .contentBx h2
 {
@@ -244,7 +244,7 @@ margin-right: 10px;
     width : 26px;
     height: 26px;
     text-align: center;
-    line-height: 26px;
+    line-height: 20px;
     font-size: 14px;
     display: inline-block;
     color:#111;
@@ -260,12 +260,13 @@ margin-right: 10px;
 {
     background:#9bdc28;
 }
-people .container .card .contentBx .color span {
-    width: 20px;
-    height: 20px;
+.people .container .card .contentBx .color span {
+    width: 26px;
+    height: 26px;
     background: #ff0;
     border-radius: 50%;
     margin: 0 5px;
+    display:inline-block;
     cursor: pointer;
 }
 .people .container .card .contentBx .color span:nth-child(2)
@@ -274,21 +275,25 @@ people .container .card .contentBx .color span {
 }
 .people .container .card .contentBx .color span:nth-child(3)
 {
-    background: #03a9f4;
+    background: lightsalmon;
 }
 .people .container .card .contentBx .color span:nth-child(4)
 {
     background: #e91e63;
 }
-.people .container .card .contentBx a
+.people .container .card .contentBx .color span:nth-child(5)
+{
+    background: chocolate;
+}
+.people .container .card .imgBx .contentBx .size .color a
 {
     display: inline-block;
     padding: 10px 20px;
     background: #fff;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     color:#111;
     opacity: 0;
     transform: translateY(50px);
